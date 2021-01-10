@@ -1,0 +1,7 @@
+sub main()
+{
+    SpecialParams()
+	{
+		global_xp_factor(2.0);
+	}
+}

@@ -1,0 +1,335 @@
+export int FTextAlign_left      = 272;
+export int FTextAlign_center    = 288;
+export int FTextAlign_right     = 320;
+
+export int FUIAnchor_left       = 1;
+export int FUIAnchor_right      = 4;       
+export int FUIAnchor_center     = 16;
+
+sub main()
+{
+	News()
+	{
+		Enable(true, false, false, false);
+		ShowScrollView(true);
+		//ScrollViewSize(645, 600);
+		//ScrollViewPosition(220, 40);
+		MessageListPosition(220, -295);
+		BackButtonText("&ScreenBuyNow_BtnBackToMenu&");
+		OpenStore(1184350, "", "");
+
+		Data()
+		{
+			Header("&splashscreen_shu_promo_header&")
+			{
+				font("boxed_m_12");
+			}
+
+			Image("splash_shu_warrior");
+			
+			Paragraph("&splashscreen_shu_promo_p1&")
+			{
+				enableColorControlSequence();
+				bold();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+			Paragraph("&splashscreen_shu_promo_p2&")
+			{
+				enableColorControlSequence();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+		}//Data
+
+	}//News
+
+	News()
+	{
+		//Enable();
+		ShowScrollView(true);
+		//ScrollViewSize(645, 600);
+		//ScrollViewPosition(220, 40);
+		MessageListPosition(220, -295);
+		BackButtonText("&ScreenBuyNow_BtnBackToMenu&");
+		OpenStore(1300710, "", "");
+
+		Data()
+		{
+			Header("&splashscreen_hellraid_teaser2_header_1&")
+			{
+				font("boxed_m_12");
+			}
+
+			Image("splash_hellraid2");
+			
+			Paragraph("&splashscreen_hellraid_teaser2_paragraph_1&")
+			{
+				enableColorControlSequence();
+				bold();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+			Paragraph("&splashscreen_hellraid_teaser2_paragraph_2&")
+			{
+				enableColorControlSequence();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+			Paragraph("&splashscreen_hellraid_teaser2_paragraph_3&")			
+			{
+				enableColorControlSequence();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+		}//Data
+
+	}//News
+
+	News()
+	{
+		//Enable();
+		ShowScrollView(true);
+		ScrollViewSize(645, 600);
+		ScrollViewPosition(220, 40);
+		MessageListPosition(220, -295);
+		BackButtonText("&ScreenBuyNow_BtnBackToMenu&");
+
+		Data()
+		{
+			Header("&splashscreen_double_experience_header_1&")
+			{
+				font("boxed_m_12");
+			}
+
+			Image("splash_double_XP");
+			
+			Paragraph("&splashscreen_double_experience_paragraph_1&")
+			{
+				enableColorControlSequence();
+				bold();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+			Paragraph("&splashscreen_double_experience_paragraph_2&")
+			{
+				enableColorControlSequence();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+			Paragraph("&splashscreen_double_experience_paragraph_3&")			
+			{
+				enableColorControlSequence();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+		}//Data
+
+	}//News
+
+	News()
+	{
+		//Enable();
+		ShowScrollView(true);
+		ScrollViewSize(645, 600);
+		ScrollViewPosition(220, 40);
+		MessageListPosition(220, -295);
+		BackButtonText("&ScreenBuyNow_BtnBackToMenu&");
+
+		Data()
+		{
+			Header("&splashscreen_hellraid_teaser_header_1&")
+			{
+				font("boxed_m_12");
+			}
+
+			Image("splash_art1");
+			
+			Paragraph("&splashscreen_hellraid_teaser_paragraph_1&")
+			{
+				enableColorControlSequence();
+				bold();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+			Paragraph("&splashscreen_hellraid_teaser_paragraph_2&")
+			{
+				enableColorControlSequence();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+			Paragraph("&splashscreen_hellraid_teaser_paragraph_3&")			
+			{
+				enableColorControlSequence();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+		}//Data
+
+	}//News
+
+	News()
+	{
+		//Enable();
+		ShowScrollView(true);
+		//ScrollViewSize(645, 600);
+		//ScrollViewPosition(220, 40);
+		MessageListPosition(220, -295);
+		BackButtonText("&ScreenBuyNow_BtnBackToMenu&");
+
+		Data()
+		{
+			Header("&splashscreen_viralrush_header_1&")
+			{
+				font("boxed_m_12");
+			}
+
+			Image("splash_viral_rush");
+			
+			Paragraph("&splashscreen_viralrush_paragraph_1&")
+			{
+				enableColorControlSequence();
+				bold();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+			Paragraph("&splashscreen_viralrush_paragraph_2&")
+			{
+				enableColorControlSequence();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+			Paragraph("&splashscreen_viralrush_paragraph_3&")			
+			{
+				enableColorControlSequence();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+			Paragraph("&splashscreen_paragraph_off_event&")			
+			{
+				enableColorControlSequence();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+		}//Data
+
+	}//News
+
+	News()
+	{
+		//Enable();
+		ShowScrollView(true);
+		ScrollViewSize(645, 600);
+		ScrollViewPosition(220, 40);
+		MessageListPosition(220, -295);
+		BackButtonText("&ScreenBuyNow_BtnBackToMenu&");
+
+		Data()
+		{
+			Header("&splashscreen_easter_header_1&")
+			{
+				font("boxed_m_12");
+			}
+
+			Image("WhatsNew_Event3_Image1");
+			
+			Paragraph("&splashscreen_easter_paragraph_1&")
+			{
+				enableColorControlSequence();
+				bold();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+			Paragraph("&splashscreen_easter_paragraph_2&")
+			{
+				enableColorControlSequence();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+			Paragraph("&splashscreen_easter_paragraph_3&")			
+			{
+				enableColorControlSequence();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+			Paragraph("&splashscreen_paragraph_off_event&")			
+			{
+				enableColorControlSequence();
+				textAlign(FTextAlign_left);
+				font("boxed_l_9");
+				textColor([1.0, 1.0, 1.0]);
+			}
+
+		}//Data
+
+	}//News
+
+	News() //Empty news for gathering 
+	{
+		BackgroundImage("menu_main_background");
+
+		Data()
+		{
+			Image("splash_art1");
+			Image("splash_art2");
+			Image("splash_art3");
+			Image("splash_BTZ");
+			Image("splash_carnage");
+			Image("splash_DL_EE");
+			Image("splash_DL1");
+			Image("splash_DL2");
+			Image("splash_double_XP");
+			Image("splash_fixing_bugs");
+			Image("splash_hypermode");
+			Image("splash_unturned");
+			Image("splash_viral_rush");
+			Image("WhatsNew_Event3_Image1");
+			Image("dyinglight_logo_white");
+			Image("menu_FRONTEND_background_black");
+			Image("splash_5th_anniversary");
+			Image("splash_rais");
+			Image("splash_retrowave");
+			Image("splash_shu_warrior");
+			Image("splash_godfather");
+			Image("splash_hellraid"); //Patch 1.28
+			Image("splash_DL2_preorder_v2"); //Patch 1.28
+		}
+
+	} //Empty news for gathering 
+}
